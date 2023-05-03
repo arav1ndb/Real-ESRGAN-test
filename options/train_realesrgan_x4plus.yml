@@ -21,7 +21,7 @@ gray_noise_prob: 0.4
 jpeg_range: [30, 95]
 
 # the second degradation process
-second_blur_prob: 0.8
+second_blur_prob: 0.7
 resize_prob2: [0.3, 0.4, 0.3]  # up, down, keep
 resize_range2: [0.3, 1.2]
 gaussian_noise_prob2: 0.5
@@ -53,7 +53,7 @@ datasets:
 
     blur_kernel_size2: 21
     kernel_list2: ['iso', 'aniso', 'generalized_iso', 'generalized_aniso', 'plateau_iso', 'plateau_aniso']
-    kernel_prob2: [0.45, 0.25, 0.12, 0.03, 0.12, 0.03]
+    kernel_prob2: [0.45, 0.25, 0.12, 0.03, 0.12, 0.02]
     sinc_prob2: 0.1
     blur_sigma2: [0.2, 1.5]
     betag_range2: [0.5, 4]
